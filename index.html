@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <title>Webpack</title>
+<link href="style.css" rel="stylesheet"></head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__content _container">
+                <div class="header__row">
+                    <a href="/" class="header__logo"><img src="./img/header/logo.svg" alt="Логотип"></a>
+                    <nav class="header__navigation">
+                        <ul class="header__list">
+                            <li class="header__link"><a href="/">Скидки</a></li>
+                            <li class="header__link"><a href="/">Новинки</a></li>
+                            <li class="header__link"><a href="/">Коллекции</a></li>
+                            <li class="header__link"><a href="/">Одежда</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__input"><input type="text"><img src="./img/header/loupe.svg" alt="Поиск"></div>
+                    <a href="/" class="header__login"><span>Корзина</span></a>
+                    <a href="/" class="header__btn btn"><span>Войти</span></a>
+                </div>
+            </div>
+        </header>
+        
+        <main class="page">
+
+            <div class="banner">
+                <div class="banner__content _container">
+                    <div class="banner__row">
+                        <div class="banner__block">
+                            <div class="banner__title">Оставайся</div>
+                            <div class="banner__subtitle">всегда в тр<span class='reverse'>e</span>нде</div>
+                            <a href="/" class="banner__btn btn"><span>К покупкам</span></a>
+                        </div>
+                        <div class="banner__img"><img src="./img/banner/img.png" alt="Баннер"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trend">
+                <div class="trend__content _container">
+
+                    <div class="trend__title title">В тренде</div>
+                    <div class="trend__subtitle subtitle">симпл-димпл, попит, стразы</div>
+
+                    <div class="trend__swiper-button-container">
+                        <div class="trend__swiper-button-prev swiper-button-prev"><img src="./img/trend/arrow.svg" alt="Стрелка влево"></div>
+                        <div class="trend__swiper-button-next swiper-button-next"><img src="./img/trend/arrow.svg" alt="Стрелка вправо"></div>
+                        <div class="trend__swiper-container swiper-container">
+                            <div class="trend__swiper-wrapper swiper-wrapper">
+                                <div class="trend__swiper-slide trend-swiper-slide swiper-slide">
+                                    <div class="trend-swiper-slide__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                                    <div class="trend-swiper-slide__block-hover">
+                                        <div class="trend-swiper-slide__row">
+                                            <div class="trend-swiper-slide__name">Alermo xrq</div>
+                                            <div class="trend-swiper-slide__text">ЗАКАМЕНЕЛ БУДТО КАМЕННЫЙ КАМЕНЬ</div>
+                                            <div class="trend-swiper-slide__btn btn"><span>Cмотреть</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trend__swiper-slide trend-swiper-slide swiper-slide">
+                                    <div class="trend-swiper-slide__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                                    <div class="trend-swiper-slide__block-hover">
+                                        <div class="trend-swiper-slide__row">
+                                            <div class="trend-swiper-slide__name">Alermo xrq</div>
+                                            <div class="trend-swiper-slide__text">Для настоящих пиратов</div>
+                                            <div class="trend-swiper-slide__btn btn"><span>Cмотреть</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trend__swiper-slide trend-swiper-slide swiper-slide">
+                                    <div class="trend-swiper-slide__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                                    <div class="trend-swiper-slide__block-hover">
+                                        <div class="trend-swiper-slide__row">
+                                            <div class="trend-swiper-slide__name">Alermo xrq</div>
+                                            <div class="trend-swiper-slide__text">Для настоящих пиратов</div>
+                                            <div class="trend-swiper-slide__btn btn"><span>Cмотреть</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="collections">
+                <div class="collections__content _container">
+                    <div class="collections__title title">Коллекции</div>
+                    <div class="collections__subtitle subtitle">Официальный мерч и цацки</div>
+                    <div class="collections__row">
+                        <div class="collections__item">
+                            <div class="collections__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                            <div class="collections__block-hover">
+                                <div class="collections__name">Alermo xrq</div>
+                                <span>---------</span>
+                                <div class="collections__text">Для настоящих пиратов</div>
+                                <div class="collections__btn btn"><span>Cмотреть</span></div>
+                            </div>
+                        </div>
+                        <div class="collections__item">
+                            <div class="collections__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                            <div class="collections__block-hover">
+                                <div class="collections__name">Alermo xrq</div>
+                                <span>---------</span>
+                                <div class="collections__text">Для настоящих пиратов</div>
+                                <div class="collections__btn btn"><span>Cмотреть</span></div>
+                            </div>
+                        </div>
+                        <div class="collections__item">
+                            <div class="collections__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                            <div class="collections__block-hover">
+                                <div class="collections__name">Alermo xrq</div>
+                                <span>---------</span>
+                                <div class="collections__text">Для настоящих пиратов</div>
+                                <div class="collections__btn btn"><span>Cмотреть</span></div>
+                            </div>
+                        </div>
+                        <div class="collections__item">
+                            <div class="collections__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                            <div class="collections__block-hover">
+                                <div class="collections__name">Alermo xrq</div>
+                                <span>---------</span>
+                                <div class="collections__text">Для настоящих пиратов</div>
+                                <div class="collections__btn btn"><span>Cмотреть</span></div>
+                            </div>
+                        </div>
+                        <div class="collections__item">
+                            <div class="collections__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                            <div class="collections__block-hover">
+                                <div class="collections__name">Alermo xrq</div>
+                                <span>---------</span>
+                                <div class="collections__text">Для настоящих пиратов</div>
+                                <div class="collections__btn btn"><span>Cмотреть</span></div>
+                            </div>
+                        </div>
+                        <div class="collections__item">
+                            <div class="collections__img"><img src="./img/trend/img.png" alt="Картинка тренда"></div>
+                            <div class="collections__block-hover">
+                                <div class="collections__name">Alermo xrq</div>
+                                <span>---------</span>
+                                <div class="collections__text">Для настоящих пиратов</div>
+                                <div class="collections__btn btn"><span>Cмотреть</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content _container">
+                <div class="footer__row">
+                    <div class="footer__logo"><img src="./img/header/logo.svg" alt="Логотип"></div>
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <li class="footer__link"><a href="/">Скидки</a></li>
+                            <li class="footer__link"><a href="/">Новинки</a></li>
+                            <li class="footer__link"><a href="/">Коллекции</a></li>
+                            <li class="footer__link"><a href="/">Одежда</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__social">
+                        <a href="/" class="footer__social-item"><img src="./img/footer/vk.png" alt="ВК"></a>
+                        <a href="/" class="footer__social-item"><img src="./img/footer/inst.png" alt="Инстаграм"></a>
+                        <a href="/" class="footer__social-item"><img src="./img/footer/mail.png" alt="Почта"></a>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <div class="footer__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</div>
+            </div>
+        </footer>
+
+    </div>
+<script defer src="script.js"></script></body>
+
+</html>
